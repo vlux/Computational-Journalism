@@ -1,0 +1,239 @@
+﻿{
+"nodes":[
+{"id":"0","name": "刘烨","sex":"male"},
+{"id":"1","name": "景甜","sex":"female"},
+{"id":"2","name": "权相佑","sex":"male"},
+{"id":"3","name": "张蓝心","sex":"female"},
+{"id":"4","name": "姜武","sex":"male"},
+{"id":"5","name": "李冰冰","sex":"female"},
+{"id":"6","name": "范冰冰","sex":"female"},
+{"id":"7","name": "谢霆锋","sex":"male"},
+{"id":"8","name": "刘德华","sex":"male"},
+{"id":"9","name": "王力宏","sex":"male"},
+{"id":"10","name": "刘承俊","sex":"male"},
+{"id":"11","name": "林鹏","sex":"male"},
+{"id":"12","name": "吴彦祖","sex":"male"},
+{"id":"13","name": "李连杰","sex":"male"},
+{"id":"14","name": "刘亦菲","sex":"female"},
+{"id":"15","name": "许冠文","sex":"male"},
+{"id":"16","name": "古天乐","sex":"male"},
+{"id":"17","name": "蔡卓妍","sex":"female"},
+{"id":"18","name": "金喜善","sex":"female"},
+{"id":"19","name": "梁家辉","sex":"male"},
+{"id":"20","name": "陈奕迅","sex":"male"},
+{"id":"21","name": "莫文蔚","sex":"female"},
+{"id":"22","name": "Lee Evans","sex":"male"},
+{"id":"23","name": "黄秋生","sex":"male"},
+{"id":"24","name": "威尔逊","sex":"male"},
+{"id":"25","name": "范文芳","sex":"female"},
+{"id":"26","name": "徐若瑄","sex":"female"},
+{"id":"27","name": "金玟","sex":"female"},
+{"id":"28","name": "曾志伟","sex":"male"},
+{"id":"29","name": "冯德伦","sex":"male"},
+{"id":"30","name": "李灿森","sex":"male"},
+{"id":"31","name": "周星驰","sex":"male"},
+{"id":"32","name": "张柏芝","sex":"female"},
+{"id":"33","name": "舒淇","sex":"female"},
+{"id":"34","name": "梁朝伟","sex":"male"},
+{"id":"35","name": "周华健","sex":"male"},
+{"id":"36","name": "张曼玉","sex":"female"},
+{"id":"37","name": "梅艳芳","sex":"female"},
+{"id":"38","name": "叶芳华","sex":"female"},
+{"id":"39","name": "董骠","sex":"male"},
+{"id":"40","name": "袁咏仪","sex":"female"},
+{"id":"41","name": "黄子华","sex":"male"},
+{"id":"42","name": "王祖贤","sex":"female"},
+{"id":"43","name": "邱淑贞","sex":"female"},
+{"id":"44","name": "狄龙","sex":"male"},
+{"id":"45","name": "黄日华","sex":"male"},
+{"id":"46","name": "杨紫琼","sex":"female"},
+{"id":"47","name": "元华","sex":"male"},
+{"id":"48","name": "利智","sex":"female"},
+{"id":"49","name": "罗宾","sex":"male"},
+{"id":"50","name": "洪金宝","sex":"male"},
+{"id":"51","name": "午马","sex":"male"},
+{"id":"52","name": "何家劲","sex":"male"},
+{"id":"53","name": "叶德娴","sex":"female"},
+{"id":"54","name": "元彪","sex":"male"},
+{"id":"55","name": "成龙","sex":"male"}
+
+],
+"edges":[
+{ "source": 55 , "target": 0 , "relation":"警察故事2013" , "weight": 1 },
+{ "source": 55 , "target": 1 , "relation":"警察故事2013" , "weight": 1 },
+{ "source": 0 , "target": 1 , "relation":"警察故事2013" , "weight": 1 },
+
+{ "source": 55 , "target": 2 , "relation":"十二生肖" , "weight": 1 },
+{ "source": 55 , "target": 3 , "relation":"十二生肖" , "weight": 1 },
+{ "source": 2 , "target": 3 , "relation":"十二生肖" , "weight": 1 },
+
+{ "source": 55 , "target": 4 , "relation":"辛亥革命" , "weight": 1 },
+{ "source": 4 , "target": 5, "relation":"辛亥革命" , "weight": 1 },
+
+{ "source": 55 , "target": 5 , "relation":"辛亥革命 功夫之王" , "weight": 2 },
+
+{ "source": 6, "target": 8 , "relation":"新少林寺 未来警察" , "weight": 2 },
+
+{ "source": 55, "target": 6 , "relation":"新少林寺" , "weight": 1 },
+{ "source": 6, "target": 7 , "relation":"新少林寺" , "weight": 1 },
+{ "source": 7, "target": 8 , "relation":"新少林寺" , "weight": 1 },
+
+{ "source": 55, "target": 7 , "relation":"新少林寺 新警察故事 特警新人类" , "weight": 3 },
+
+{ "source": 55, "target": 8 , "relation":"新少林寺 火烧岛 夏日福星" , "weight": 3 },
+
+{ "source": 55 , "target": 9 , "relation":"大兵小将" , "weight": 1 },
+{ "source": 55 , "target": 10 , "relation":"大兵小将" , "weight": 1 },
+{ "source": 55 , "target": 11 , "relation":"大兵小将" , "weight": 1 },
+{ "source": 9 , "target": 11 , "relation":"大兵小将" , "weight": 1 },
+{ "source": 10 , "target": 11 , "relation":"大兵小将" , "weight": 1 },
+{ "source": 9 , "target": 10 , "relation":"大兵小将" , "weight": 1 },
+
+{ "source": 55 , "target": 12 , "relation":"新宿事件 新警察故事 大佬爱美丽" , "weight": 3 },
+
+{ "source": 55 , "target": 13 , "relation":"功夫之王" , "weight": 1 },
+{ "source": 55 , "target": 14 , "relation":"功夫之王" , "weight": 1 },
+{ "source": 13 , "target": 14 , "relation":"功夫之王" , "weight": 1 },
+
+{ "source": 55 , "target": 15 , "relation":"宝贝计划" , "weight": 1 },
+{ "source": 55 , "target": 16 , "relation":"宝贝计划" , "weight": 1 },
+{ "source": 55 , "target": 17 , "relation":"宝贝计划" , "weight": 1 },
+{ "source": 15 , "target": 17 , "relation":"宝贝计划" , "weight": 1 },
+{ "source": 16 , "target": 17 , "relation":"宝贝计划" , "weight": 1 },
+{ "source": 15 , "target": 16 , "relation":"宝贝计划" , "weight": 1 },
+
+{ "source": 55 , "target": 18 , "relation":"神话" , "weight": 1 },
+{ "source": 18 , "target": 19 , "relation":"神话" , "weight": 1 },
+
+{ "source": 55 , "target": 19 , "relation":"神话 火烧岛" , "weight": 2 },
+
+{ "source": 55 , "target": 20 , "relation":"大佬爱美丽" , "weight": 1 },
+
+{ "source": 20 , "target": 21 , "relation":"大佬爱美丽 东成西就" , "weight": 2 },
+
+{ "source": 55 , "target": 21 , "relation":"大佬爱美丽 喜剧之王" , "weight": 2 },
+
+{ "source": 55 , "target": 22 , "relation":"飞龙再生" , "weight": 1 },
+{ "source": 55 , "target": 23 , "relation":"飞龙再生" , "weight": 1 },
+{ "source": 22 , "target": 23 , "relation":"飞龙再生" , "weight": 1 },
+
+{ "source": 55 , "target": 24 , "relation":"皇家威龙" , "weight": 1 },
+{ "source": 55 , "target": 25 , "relation":"皇家威龙" , "weight": 1 },
+{ "source": 24 , "target": 25 , "relation":"皇家威龙" , "weight": 1 },
+
+{ "source": 55 , "target": 26 , "relation":"特务迷城" , "weight": 1 },
+{ "source": 55 , "target": 27 , "relation":"特务迷城" , "weight": 1 },
+{ "source": 55 , "target": 28 , "relation":"特务迷城" , "weight": 1 },
+{ "source": 26 , "target": 28 , "relation":"特务迷城" , "weight": 1 },
+{ "source": 27 , "target": 28 , "relation":"特务迷城" , "weight": 1 },
+{ "source": 26 , "target": 27 , "relation":"特务迷城" , "weight": 1 },
+
+{ "source": 55 , "target": 29 , "relation":"特警新人类" , "weight": 1 },
+{ "source": 55 , "target": 30 , "relation":"特警新人类" , "weight": 1 },
+{ "source": 7 , "target": 30 , "relation":"特警新人类" , "weight": 1 },
+{ "source": 29 , "target": 30 , "relation":"特警新人类" , "weight": 1 },
+{ "source": 7 , "target": 29 , "relation":"特警新人类" , "weight": 1  },
+
+{ "source": 55 , "target": 31 , "relation":"喜剧之王" , "weight": 1 },
+{ "source": 55 , "target": 32 , "relation":"喜剧之王" , "weight": 1 },
+{ "source": 21 , "target": 32 , "relation":"喜剧之王" , "weight": 1 },
+{ "source": 31 , "target": 32 , "relation":"喜剧之王" , "weight": 1 },
+{ "source": 21 , "target": 31 , "relation":"喜剧之王" , "weight": 1 },
+
+{ "source": 55 , "target": 33 , "relation":"玻璃樽" , "weight": 1 },
+{ "source": 55 , "target": 34 , "relation":"玻璃樽" , "weight": 1 },
+{ "source": 55 , "target": 35 , "relation":"玻璃樽" , "weight": 1 },
+{ "source": 33 , "target": 35 , "relation":"玻璃樽" , "weight": 1 },
+{ "source": 34 , "target": 35 , "relation":"玻璃樽" , "weight": 1 },
+{ "source": 33 , "target": 34 , "relation":"玻璃樽" , "weight": 1 },
+
+{ "source": 55 , "target": 36 , "relation":"警察故事3 警察故事2 警察故事4 双龙会" , "weight": 4 },
+
+{ "source": 55 , "target": 37 , "relation":"红番区 醉拳 奇迹" , "weight": 3 },
+
+{ "source": 55 , "target": 38 , "relation":"红番区" , "weight": 1 },
+{ "source": 37 , "target": 38 , "relation":"红番区" , "weight": 1 },
+{ "source": 37 , "target": 39 , "relation":"红番区" , "weight": 1 },
+{ "source": 38 , "target": 39 , "relation":"红番区" , "weight": 1 },
+
+{ "source": 55 , "target": 39 , "relation":"红番区 警察故事2" , "weight": 2 },
+
+{ "source": 55 , "target": 40 , "relation":"霹雳火" , "weight": 1 },
+{ "source": 55 , "target": 41 , "relation":"霹雳火" , "weight": 1 },
+{ "source": 40 , "target": 41 , "relation":"霹雳火" , "weight": 1 },
+
+{ "source": 55 , "target": 42 , "relation":"城市猎人" , "weight": 1 },
+{ "source": 55 , "target": 43 , "relation":"城市猎人" , "weight": 1 },
+{ "source": 42 , "target": 43 , "relation":"城市猎人" , "weight": 1 },
+
+{ "source": 55 , "target": 44 , "relation":"醉拳" , "weight": 1 },
+{ "source": 55 , "target": 45 , "relation":"醉拳" , "weight": 1 },
+{ "source": 37 , "target": 45 , "relation":"醉拳" , "weight": 1 },
+{ "source": 44 , "target": 45 , "relation":"醉拳" , "weight": 1 },
+{ "source": 37 , "target": 44 , "relation":"醉拳" , "weight": 1 },
+
+{ "source": 55 , "target": 46 , "relation":"警察故事3" , "weight": 1 },
+{ "source": 55 , "target": 47 , "relation":"警察故事3" , "weight": 1 },
+{ "source": 36 , "target": 47 , "relation":"警察故事3" , "weight": 1 },
+{ "source": 46 , "target": 47 , "relation":"警察故事3" , "weight": 1 },
+{ "source": 36 , "target": 46 , "relation":"警察故事3" , "weight": 1 },
+
+{ "source": 55 , "target": 48 , "relation":"双龙会" , "weight": 1 },
+{ "source": 55 , "target": 49 , "relation":"双龙会" , "weight": 1 },
+{ "source": 36 , "target": 49 , "relation":"双龙会" , "weight": 1 },
+{ "source": 48 , "target": 49 , "relation":"双龙会" , "weight": 1 },
+{ "source": 36 , "target": 48 , "relation":"双龙会" , "weight": 1 },
+
+{ "source": 55 , "target": 50 , "relation":"火烧岛 飞龙猛将 夏日福星" , "weight": 3 },
+
+{ "source": 8 , "target": 50 , "relation":"火烧岛" , "weight": 1 },
+{ "source": 19 , "target": 50 , "relation":"火烧岛" , "weight": 1 },
+{ "source": 8 , "target": 19 , "relation":"火烧岛" , "weight": 1 },
+
+{ "source": 55 , "target": 51 , "relation":"奇迹" , "weight": 1 },
+{ "source": 37 , "target": 51 , "relation":"奇迹" , "weight": 1 },
+
+{ "source": 55 , "target": 52 , "relation":"警察故事2" , "weight": 1 },
+{ "source": 36 , "target": 52 , "relation":"警察故事2" , "weight": 1 },
+{ "source": 39 , "target": 52 , "relation":"警察故事2" , "weight": 1 },
+{ "source": 36 , "target": 39 , "relation":"警察故事2" , "weight": 1 },
+
+{ "source": 55 , "target": 53 , "relation":"飞龙猛将" , "weight": 1 },
+{ "source": 55 , "target": 54 , "relation":"飞龙猛将" , "weight": 1 },
+{ "source": 50 , "target": 54 , "relation":"飞龙猛将" , "weight": 1 },
+{ "source": 53 , "target": 54 , "relation":"飞龙猛将" , "weight": 1 },
+{ "source": 50 , "target": 53 , "relation":"飞龙猛将" , "weight": 1 },
+
+{ "source": 8 , "target": 50 , "relation":"夏日福星" , "weight": 1 },
+
+{ "source": 5 , "target": 7 , "relation":"十月围城" , "weight": 1 },
+
+{ "source": 5 , "target": 8 , "relation":"通天帝国" , "weight": 1 },
+
+{ "source": 5 , "target": 12 , "relation":"枪王之王" , "weight": 1 },
+
+{ "source": 8 , "target": 12 , "relation":"门徒" , "weight": 1 },
+
+{ "source": 0 , "target": 23 , "relation":"不再让你孤单" , "weight": 1 },
+
+{ "source": 1 , "target": 7 , "relation":"澳门风云" , "weight": 1 },
+
+{ "source": 12 , "target": 19 , "relation":"英雄崛起" , "weight": 1 },
+
+{ "source": 8 , "target": 13 , "relation":"投名状" , "weight": 1 },
+
+{ "source": 12 , "target": 16 , "relation":"窃听风云" , "weight": 1 },
+
+{ "source": 14 , "target": 24 , "relation":"四大名捕" , "weight": 1 },
+
+{ "source": 8 , "target": 23 , "relation":"桃姐" , "weight": 1 },
+
+{ "source": 37 , "target": 50 , "relation":"乱世儿女" , "weight": 1 },
+
+{ "source": 8 , "target": 37 , "relation":"豪门夜宴" , "weight": 1 },
+
+{ "source": 14 , "target": 16 , "relation":"倩女幽魂" , "weight": 1 },
+
+{ "source": 12 , "target": 36 , "relation":"全城热恋" , "weight": 1 }
+]
+}

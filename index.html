@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <link rel="stylesheet" href="main.css" type="text/css" media="screen, mobile" title="main" charset="utf-8" />
+
+  <script src="d3/d3.js" charset="utf-8"></script>
+
+  <title>Jackie Chan</title>
+</head>
+<body>
+
+  <section id="header"></section>
+
+    <div id ='poster'>
+        <figure>
+            <img src="pic/1.jpg" style="width:110%;" />
+            <p id = 'posterp'>Police Story I<br>1985</p>
+        </figure>
+        <figure>
+            <img src="pic/2.jpg" style="width:110%;" />
+            <p id = 'posterp'>Police Story II<br>1988</p>
+        </figure>
+        <figure>
+            <img src="pic/3.jpg" style="width:110%;" />
+            <p id = 'posterp'>Police Story III<br>1992</p>
+        </figure>
+        <figure>
+            <img src="pic/4.jpg" style="width:110%;" />
+            <p id = 'posterp'>Police Story IV<br>1996</p>
+        </figure>
+        <figure>
+            <img src="pic/5.jpg" style="width:110%;" />
+            <p id = 'posterp'>Police Story V<br>2005</p>
+        </figure>
+        <figure>
+            <img src="pic/6.jpg" style="width:110%;" />
+            <p id = 'posterp'>Police Story VI<br>2013</p>
+        </figure>
+    </div>
+
+    <!-- <section id ='visualization'> -->
+        <div id ='chart' style = "text-align:center"></div>
+    <!-- </section> -->
+
+    <section id="description" name="description">
+       <h1>Police Story Series</h1>
+       <h1>2014 Dec.</h1>
+       <div class="line" id="top"></div>
+       <h2>
+         Hey Jackie Chan!
+       </h2>
+       <p>
+         Owing to the earnest admiration to the greator actor,Jackie Chan,we decided to build the website to sum up Jackie Chan's most famous movie series 'The Police Story'.
+       </p>
+       <p>
+         It's interesting to find some relations and adjustment during these series.We divided the movie into 4 base parts 'Dialogue','Fight','Motion','Credits'.
+         The Jackie Chan's films are famous for its action,so we can't see some special scenes like the 'montage'.
+         Maybe it's normal,but we also can see some information from these simple charts.
+       </p>
+       <p>
+           We also build a Force-Directed Graph to show the actors who collaborated with Jackie Chan previously.
+           The distance and the weight of the edge is decided by the quantity of movies they cooperated.
+       </p>
+       <p>
+           The bule node stands for the male and the other node means the female.
+           You can focus on some specific node to see more information.
+       </p>
+       <p>
+         <em>This piece was inspired by the 'Rocky Morphology'.Thanks for their awesome works.</em>
+       </p>
+           <br>
+       <h2>
+         Interactive hints
+       </h2>
+       <p>When you mouseover the categories,the corresponding part is highlighted and the sum is also clear.</p>
+       <p>You can also click the categories to chose the specific part to see its length.</p>
+       <p>Put the mouse on some specific node to see the relationships more clearly.</p>
+       <div class="line"></div>
+     </section>
+
+
+    <div id ='force' style = "text-align:center"></div>
+
+
+    <section id="description" name="description">
+       <div class="line" id="top"></div>
+       <h2>
+         Hey There!
+       </h2>
+       <p>
+          We also use the data which listed above to show the proportion of the actors.
+       </p>
+       <p>
+           The first layer is about the actors who are from 'Mainland','HK' or 'Foreign'
+       </p>
+       <p>
+           The second layer is the gender.The next layer is their names.
+       </p>
+       <p>
+           The last layer are the films' names they cooperated.
+       </p>
+       <p>
+           If you click the button 'The Second Order',the order will be 'Gender - Origin - Name - Films' from the inside to outside.
+       </p>
+           <br>
+       <h2>
+         Interactive hints
+       </h2>
+       <p>Mouseover the proportion to discover the actors.Have fun!</p>
+       <div class="line"></div>
+     </section>
+
+    <div id="sequence" style = "text-align:center">
+        <button id = "change1">The First Order</button>
+		<button id = "change2">The Second Order</button>
+    </div>
+
+    <div id="sunburst"style = "text-align:center">
+        <div id="explanation" style="visibility: hidden;">
+          <span id="percentage"></span><br/>
+          of Jackie Chan's films.
+        </div>
+   </div>
+
+
+  <div id="footer">
+    <h1>Computational Journalism</h1>
+    <p>Designed By Yue Xuanwu </p>
+    <p>Data By Zhang Wenbo</p>
+    <p>2014 Dec.</p>
+  </div>
+
+
+  <script src = "sequences.js"></script>
+  <script src = "chart.js"></script>
+  <script src = "force.js"></script>
+
+
+</body>
+</html>
